@@ -6,4 +6,14 @@ const interesCompuesto = (monto, tasa, periodos) => {
 
 const duplicar = (x) => x * 2
 
-const obtenerSaludo = 
+const obtenerSaludo = (nombre) => `Hola ${nombre}`
+
+
+// Ejemplos de funciones impuras
+
+persona = {
+    nombre: "Héctor",
+    apellido: "Patricio",
+}
+
+const nombreCompleto = (persona) => `${persona.nombre} ${persona.apellido}`
